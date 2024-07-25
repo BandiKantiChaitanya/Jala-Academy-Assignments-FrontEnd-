@@ -1,0 +1,18 @@
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 20px solid black;
+}
+
+/* Style for the table cells */
+table th, table td {
+    border: 10px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Change the border color of the table when hovered */
+table:hover {
+    border-color: red;
+}

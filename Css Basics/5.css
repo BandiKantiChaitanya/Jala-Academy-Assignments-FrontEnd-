@@ -1,0 +1,47 @@
+/* Heading 1 styling */
+h1 {
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 36px; /* Font size */
+    color: red; /* Font color */
+    text-align: center; /* Text alignment */
+}
+
+/* Heading 2 styling */
+h2 {
+    font-family: Georgia, serif; /* Font family */
+    font-size: 30px; /* Font size */
+    color: blue; /* Font color */
+    text-align: left; /* Text alignment */
+}
+
+/* Paragraph 1 styling */
+.paragraph1 {
+    font-family: 'Times New Roman', Times, serif; /* Font family */
+    font-size: 16px; /* Font size */
+    color: black; /* Font color */
+    text-align: justify; /* Text alignment */
+}
+
+/* Paragraph 2 styling */
+.paragraph2 {
+    font-family: Verdana, sans-serif; /* Font family */
+    font-size: 20px; /* Font size */
+    color: green; /* Font color */
+    text-align: right; /* Text alignment */
+}
+
+/* Paragraph 3 styling */
+.paragraph3 {
+    font-family: 'Courier New', Courier, monospace; /* Font family */
+    font-size: 18px; /* Font size */
+    color: purple; /* Font color */
+    text-align: center; /* Text alignment */
+}
+
+/* Footer styling */
+footer {
+    font-family: Helvetica, sans-serif; /* Font family */
+    font-size: 14px; /* Font size */
+    color: orange; /* Font color */
+    text-align: center; /* Text alignment */
+}

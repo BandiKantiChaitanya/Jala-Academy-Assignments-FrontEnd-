@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Tags Example</title>
+    <link rel="stylesheet" href="html5-tags-styles.css">
+</head>
+<body>
+    <header>
+        <h1>HTML5 Tags Example</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to the HTML5 Example Page</h2>
+            <p>This is an example of a web page that uses various HTML5 tags to structure content.</p>
+            <figure>
+                <img src="https://cdn.pixabay.com/photo/2022/01/03/15/46/plane-6913027_1280.jpg" alt="Placeholder Image">
+                <figcaption>Figure 1: An example placeholder image</figcaption>
+            </figure>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn more about us and what we do.</p>
+            <article>
+                <h3>Our Mission</h3>
+                <p>We aim to provide high-quality examples and tutorials on HTML5.</p>
+                <time datetime="2024-01-01">January 1, 2024</time>
+            </article>
+            <aside>
+                <h4>Did You Know?</h4>
+                <p>HTML5 introduces many new semantic elements that improve the structure of web pages.</p>
+            </aside>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hgroup>
+            <h2>Footer Section</h2>
+            <h3>Contact Information</h3>
+        </hgroup>
+        <p>© 2024 HTML5 Example. All rights reserved.</p>
+    </footer>
+</body>
+</html>

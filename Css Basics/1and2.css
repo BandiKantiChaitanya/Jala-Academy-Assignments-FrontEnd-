@@ -1,0 +1,22 @@
+/* page with different background colours */
+body{
+    /* background-color: black; */
+    /* background-color: red; */
+    /* background-color: brown; */
+    background-color: white;
+}
+
+/* Page with an image which should be fixed and has specified size  */
+body{
+    padding: 40px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_1280.jpg');
+    /* can also use background cover so that it will be responsive */
+    /* background-size: cover; */
+    background-size: 1600px 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    font-size: 150px;
+}

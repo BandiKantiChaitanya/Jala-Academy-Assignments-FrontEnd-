@@ -1,0 +1,30 @@
+/* Apply basic styles to the body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+/* Styling for the container with multiple background images */
+.background-container {
+    height: 100vh; /* Full viewport height */
+    background-image: 
+        url('https://cdn.pixabay.com/photo/2024/07/17/11/34/flower-8901325_1280.jpg'), /* Background Image 1 */
+        url('https://cdn.pixabay.com/photo/2024/07/17/18/55/squirrel-8902272_1280.jpg'), /* Background Image 2 */
+        url('https://cdn.pixabay.com/photo/2021/09/18/16/23/squirel-6635556_640.jpg'); /* Background Image 3 */
+    background-size: 40% 40%, 30% 30%, auto; /* Adjust sizes to fit multiple images */
+    background-position: top left, bottom right, center center; /* Position images */
+    background-repeat: no-repeat; /* Prevent images from repeating */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Optional: Add styling for the text */
+.background-container h1, .background-container p {
+    margin: 0;
+}

@@ -1,0 +1,45 @@
+/* Styles for the visibility example */
+.visibility-example div {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.visibility-example .hidden {
+    visibility: hidden;
+}
+
+.visibility-example .collapse {
+    visibility: collapse;
+}
+
+/* Styles for the display example */
+.display-example div, .display-example li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.display-example .none {
+    display: none;
+}
+
+.display-example .inline {
+    display: inline;
+    border: 1px solid red; /* For visual distinction */
+}
+
+.display-example .block {
+    display: block;
+    border: 1px solid green; /* For visual distinction */
+}
+
+.display-example .contents {
+    display: contents;
+    border: 1px solid blue; /* For visual distinction */
+}
+
+.display-example .list-item {
+    display: list-item;
+    border: 1px solid purple; /* For visual distinction */
+}

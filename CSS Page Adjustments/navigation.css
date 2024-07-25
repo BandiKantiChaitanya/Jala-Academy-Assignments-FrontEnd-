@@ -1,0 +1,32 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.image-container {
+    width: 1336px; /* Set the width of the container */
+    height: 800px; /* Set the height of the container */
+    overflow: hidden; /* Hide the overflow */
+    position: relative;
+}
+.image-container img {
+    width: 100%; /* Make the image take the full width of the container */
+    height: auto; /* Maintain the aspect ratio */
+    position: absolute; /* Position the image absolutely */
+    top: -350px; /* Adjust the top position to crop the image */
+    left: 0; /* Align the image to the left */
+}
+.navigate-button {
+    position: absolute; /* Position the button absolutely */
+    top: 10px; /* Position from the top of the container */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to center the button */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.navigate-button:hover {
+    background-color: #0056b3; /* Change color on hover */
+}

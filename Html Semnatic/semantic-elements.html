@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Elements Example</title>
+    <link rel="stylesheet" href="semantic-styles.css">
+</head>
+<body>
+    <header>
+        <h1>Semantic Elements Example</h1>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>Article Title</h2>
+                <p>This is an example of an article section. Articles are used to represent independent, self-contained content.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Contact Form</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Sample Table</h2>
+            <table>
+                <caption>Sample Data Table</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>30</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>25</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                    <tr>
+                        <td>Emily Johnson</td>
+                        <td>35</td>
+                        <td>Chicago</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Semantic Elements Example</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+/* CSS Animations */
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    margin-bottom: 20px;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+}
+
+/* General Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    background-color: lightgray;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect */
+.pagination a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Spaced Pagination */
+.pagination.spaced a {
+    margin: 0 5px;
+}
+
+/* No Spaces Pagination */
+.pagination.no-spaces a {
+    margin: 0;
+}
+
+/* Rounded Pagination with Active State */
+.pagination.rounded a {
+    border-radius: 50%;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.pagination.rounded a:hover {
+    background-color: #007bff;
+    color: black;
+}
+
+.pagination.rounded a.active {
+    background-color: green;
+    color: black;
+    border: 1px solid green;
+}

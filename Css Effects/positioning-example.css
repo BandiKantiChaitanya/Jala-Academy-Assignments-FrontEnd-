@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Container */
+.container {
+    position: relative; /* Used for absolute positioning context */
+    height: 600px; /* Ensure the container has enough height for scrolling */
+    border: 2px solid #333;
+    padding: 20px;
+}
+
+/* Box Styles */
+.box {
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.static {
+    position: static; /* Default positioning */
+    background-color: lightcoral;
+}
+
+.relative {
+    position: relative; /* Positioned relative to its normal position */
+    background-color: lightseagreen;
+    top: 20px; /* Moves the box 20px down */
+    left: 20px; /* Moves the box 20px right */
+}
+
+.fixed {
+    position: fixed; /* Fixed to the viewport */
+    background-color: lightblue;
+    top: 10px; /* 10px from the top of the viewport */
+    right: 10px; /* 10px from the right of the viewport */
+}
+
+.absolute {
+    position: absolute; /* Positioned relative to the nearest positioned ancestor */
+    background-color: lightgoldenrodyellow;
+    top: 100px; /* 100px from the top of the nearest positioned ancestor (container) */
+    left: 100px; /* 100px from the left of the nearest positioned ancestor (container) */
+}
+
+.sticky {
+    position: sticky; /* Sticks to the viewport when scrolling */
+    background-color: lightpink;
+    top: 0; /* Sticks to the top of the viewport */
+}

@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Container Styles */
+.container {
+    border: 2px solid #333;
+    margin: 20px;
+    padding: 10px;
+    overflow: hidden; /* Default to hidden overflow */
+}
+
+/* Overflow X - Horizontal Scroll */
+.overflow-x {
+    width: 300px; /* Fixed width to show overflow */
+    overflow-x: auto; /* Horizontal scroll */
+}
+
+.overflow-x .content {
+    width: 600px; /* Content wider than container */
+    background-color: lightcoral;
+}
+
+/* Overflow Y - Vertical Scroll */
+.overflow-y {
+    height: 150px; /* Fixed height to show overflow */
+    overflow-y: auto; /* Vertical scroll */
+}
+
+.overflow-y .content {
+    background-color: lightseagreen;
+}
+
+/* Overflow Both - Horizontal and Vertical Scroll */
+.overflow-both {
+    width: 300px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    overflow: auto; /* Both horizontal and vertical scroll */
+}
+
+.overflow-both .content {
+    width: 600px; /* Content wider than container */
+    height: 300px; /* Content taller than container */
+    background-color: lightgoldenrodyellow;
+}

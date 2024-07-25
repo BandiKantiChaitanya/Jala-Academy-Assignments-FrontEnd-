@@ -1,0 +1,36 @@
+/* Apply basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Styling for all boxes */
+.box {
+    border: 5px solid #333;
+    background-color: #f0f0f0;
+    margin: 20px; /* Default margin for all boxes */
+}
+
+/* Specific styles for each box */
+.box1 {
+    width: 150px;
+    padding: 10px; /* Padding inside the box */
+    margin: 30px;  /* Margin outside the box */
+}
+
+.box2 {
+    width: 200px;
+    padding: 20px; /* Padding inside the box */
+    margin: 40px;  /* Margin outside the box */
+}
+
+.box3 {
+    width: 250px;
+    padding: 30px; /* Padding inside the box */
+    margin: 50px;  /* Margin outside the box */
+}
+
+/* Optional: Add some basic styling for the paragraph */
+.box p {
+    margin: 0; /* Remove default margin around paragraph */
+}

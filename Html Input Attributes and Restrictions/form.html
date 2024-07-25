@@ -1,0 +1,188 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Basic Input attribute Form in HTML</h1>
+    <form>
+
+        <!-- type text -->
+        <div class="form-group">
+         <label for="name">Input Text: </label>
+         <input type="text" placeholder="enter a text">
+        </div>
+
+        <!-- Input Password -->
+         <div class="form-group">
+            <label for="password">Input Password:</label>
+            <input type="password" name="password" placeholder="enter a password" >
+         </div>
+
+        <!-- Radio -->
+          <div class="form-group">
+            <label for="radios">Radio Buttons:</label>
+            <label><input type="radio" name="radioss" id="">Radio 1</label>
+            <label><input type="radio" name="radioss" id="">Radio 2</label>
+          </div>
+        
+        <!-- Checkbox -->
+         <div class="form-group">
+            <label for="checks">Check Boxes:</label>
+            <label><input type="checkbox" name="checks" id="">Checkbox 1</label>
+            <label><input type="checkbox" name="checks" id="">Checkbox 2</label>
+         </div>
+        
+
+         <div class="form-group">
+            <button type="button" onclick="alert('Button clicked!')">Click Me</button>
+        </div>
+
+        <div class="form-group">
+            <!-- submit -->
+         <button type="submit">Submit</button>
+            <!-- reset -->
+          <button type="reset">Reset</button>
+        </div>
+
+        <div>
+            <h3>HTML5 input Types</h3>
+        </div>
+         <!-- Number -->
+         <div class="form-group">
+            <label for="">Input Number</label>
+            <input type="number" name="" id="">
+         </div>
+
+        <!-- Range min and max -->
+         <div class="form-group">
+            <label for="">Range(Between 0 to 10)</label>
+            <input type="range" min="0" max="10">
+         </div>
+
+         <!-- colour -->
+         <div class="form">
+            <label for="">colour</label>
+            <input type="color">
+          </div>
+
+         <!-- date -->
+          <div class="form">
+            <label for="">Date</label>
+            <input type="date">
+          </div>
+
+          <!-- file -->
+          <div class="form">
+            <label for="">file</label>
+            <input type="file">
+          </div>
+
+          <!-- time -->
+          <div class="form">
+            <label for="">Time</label>
+            <input type="time" name="" id="">
+          </div>
+
+          <!-- month -->
+          <div class="form">
+            <label for="">month</label>
+            <input type="month">
+          </div>
+
+          <!-- week -->
+          <div class="form">
+            <label for="">week</label>
+            <input type="week">
+          </div>
+
+          <!-- email -->
+         <div class="form">
+            <label for="">Email</label>
+            <input type="email" >
+         </div>
+
+        <div>
+            <h3>Input Restrictions</h3>
+        </div>
+
+        <div class="form-group">
+            <label for="text">Text Input (max length 10):</label>
+            <input type="text" id="text" name="text" maxlength="10">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password Input (required):</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div class="form-group">
+            <label>Radio Buttons (disabled):</label>
+            <label><input type="radio" name="radio" value="option1" disabled> Option 1</label>
+            <label><input type="radio" name="radio" value="option2" disabled> Option 2</label>
+        </div>
+
+        <div class="form-group">
+            <label for="number">Number Input (min 1, max 10):</label>
+            <input type="number" id="number" name="number" min="1" max="10">
+        </div>
+
+        <div class="form-group">
+            <label for="readonly-text">Readonly Text Input:</label>
+            <input type="text" id="readonly-text" name="readonly-text" value="Read Only" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="size-text">Text Input (size 20):</label>
+            <input type="text" id="size-text" name="size-text" size="20">
+        </div>
+
+        <div>
+            <h3>Target Attribute Example</h3>
+        </div>
+        
+        <div class="container">
+            <h1>Target Attribute Example</h1>
+            <p>
+                <a href="https://www.example.com" target="_blank">Open in a New Tab</a>
+            </p>
+            <p>
+                <a href="https://www.example.com" target="_self">Open in the Same Frame</a>
+            </p>
+            <p>
+                <a href="https://www.example.com" target="_parent">Open in the Parent Frame</a>
+            </p>
+            <p>
+                <a href="https://www.example.com" target="_top">Open in the Full Body of the Window</a>
+            </p>
+            <p>
+                <a href="https://www.example.com" target="newWindow" onclick="window.open(this.href, 'newWindow', 'width=600,height=400'); return false;">Open in a New Window</a>
+            </p>
+            <div class="iframe-container">
+                <h2>Open Link in an iFrame</h2>
+                <iframe name="iframeExample" src="about:blank"></iframe>
+                <p>
+                    <a href="https://www.example.com" target="iframeExample">Open in iFrame</a>
+                </p>
+            </div>
+            <div class="marquee-container">
+                <marquee behavior="scroll" direction="left" scrollamount="8">
+                    This is a scrolling text using the marquee element.
+                    <ul>
+                        <p>Note Please</p>
+                        <li>Note 1</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem vero suscipit nam fuga saepe vitae aut quis id at voluptates, tempora neque dolores atque maiores voluptatum accusamus veritatis alias sint.</li>
+                        <li>Note2</li>
+                    </ul>
+                </marquee>
+            </div>
+        </div>
+
+
+        
+        
+    </form>
+</body>
+</html>

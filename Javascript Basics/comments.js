@@ -1,6 +1,5 @@
 // single line comments
 
-console.log('Hello World')
 
 /*MUlti line Comments
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 

@@ -1,44 +1,45 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Access and Properties</title>
-    <script src="button-disappear.js" defer></script>
-    <script src="callApplyExample.js" ></script>
-    <script  src="counter.js"></script>
-    <script  src="countergetset.js"></script>
-    <script src="countfunctions.js" ></script>
+    <title>Document</title>
+    
 </head>
 <body>
-    <h1 style="text-align: center;" >JavaScript Access and Properties</h1>
+    <h1>My webpage</h1>
 
+    <!--button disappear  -->
     <h1>Button Disappear</h1>
     <button id="disappearButton">Click me to disappear</button>
-    
+    <script src="buttondisappear.js" ></script>
 
+    <!-- call and apply -->
     <h1>Call and Apply Example</h1>
-    <button id="callButton">Invoke with Call</button>
-    <button id="applyButton">Invoke with Apply</button>
+    <button id="callButton" >Invoke with call</button>
+    <button id="applyButton" >Invoke with apply</button>
+    <script src="callapply.js" ></script>
 
+    <!-- counter -->
     <h1>Counter</h1>
-    <div>
-        <p>Count: <span id="countValue">0</span></p>
-        <button id="countButton">Count</button>
+    <div id="count" >
+        <script src="counter.js" ></script>
     </div>
 
-    <h1>Counter get set</h1>
-    <div>
-        <p>Count: <span id="countVal">0</span></p>
-        <button id="countBtn">Count</button>
-    </div>
+    <!-- counter get set -->
+    <h1>Counter Get set</h1>
+    <p id="display">0</p>
+    <button id="getVal">Count(get)</button>
+    <button id="setVal">Reset(set)</button>
+    <script src="countersetget.js" ></script>
 
-    <h1>Counter with Prototypes</h1>
-    <div>
-        <p>Count: <span id="countValu">0</span></p>
-        <button id="countBtnn">Count</button>
-        <button id="resetButton">Reset</button>
-        <button id="incrementByButton">Increment by 5</button>
-    </div>
+    <!-- prototype -->
+    <h1>Counter Prototype</h1>
+    <p id="countValue" >0</p>
+    <button id="countBtn">Count</button>
+    <button id="resetBtn" >Reset</button>
+    <button id="incrementBtn">Increment by 5</button>
+    <script src="countfunction.js" ></script>
+
+    
 </body>
 </html>

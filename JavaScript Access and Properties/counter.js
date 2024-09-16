@@ -1,10 +1,13 @@
-document.addEventListener('DOMContentLoaded', () => {
-    let count = 0;
-    const countValue = document.getElementById('countValue');
-    const countButton = document.getElementById('countButton');
+let div=document.getElementById('count')
+// let button=document.createElement('button')
 
-    countButton.addEventListener('click', () => {
-        count++;
-        countValue.textContent = count;
-    });
-});
+let count=0;
+
+
+function counter(){
+    count++;
+    div.innerHTML=`<p>${count}</p><button onclick="counter()">count</button>`
+}
+
+counter();
+
